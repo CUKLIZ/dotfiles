@@ -1,4 +1,5 @@
-# Hyprland Dotfiles (based on HyDE)
+# 🧠 My Arch Hyprland Dotfiles
 
-This repository contains my personal Hyprland configuration, adapted from [HyDE](https://github.com/someuser/HyDE).  
-It is used as my **daily driver**, so everything here is tailored for stability and usability rather than just aesthetics.
+Personal configuration for setting up Arch Linux with the **Hyprland** window manager, using [HyDE (Hyprland Dotfiles Enhancer)](https://github.com/hyprland-community/hyde) as the modular config framework.
+
+Stored on GitHub for backup, personal documentation, and so I don’t forget 😅
