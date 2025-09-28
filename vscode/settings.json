@@ -1,0 +1,48 @@
+{
+    "accessibility.dimUnfocused.opacity": 1,
+    "accessibility.dimUnfocused.enabled": false,
+    "chat.todoListTool.enabled": false,
+    "workbench.iconTheme": "material-icon-theme",
+    "files.autoSave": "afterDelay",
+    "editor.fontVariations": false,
+
+    "editor.fontFamily": "JetBrains Mono, Fira Code, Cascadia Code, monospace",
+    "editor.fontSize": 14,
+    "editor.fontWeight": "590",
+    "editor.fontLigatures": false,
+
+    "editor.semanticHighlighting.enabled": false,
+
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": [
+                    "keyword",
+                    "storage",
+                    "entity.name.function",
+                    "variable",
+                    "support.function"
+                ],
+                "settings": {
+                    "fontStyle": "bold"
+                }
+            }
+        ]
+    },
+    "workbench.settings.applyToAllProfiles": [
+    
+        
+    ],
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[css]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[php]": {
+        "editor.defaultFormatter": "laravel.vscode-laravel"
+    }
+}
