@@ -11,6 +11,10 @@
     "editor.fontWeight": "590",
     "editor.fontLigatures": false,
 
+    "terminal.integrated.fontFamily": "monospace",
+    "terminal.integrated.fontWeight": "600",
+    "terminal.integrated.fontWeightBold": "700",
+
     "editor.semanticHighlighting.enabled": false,
 
     "editor.tokenColorCustomizations": {
@@ -29,8 +33,7 @@
             }
         ]
     },
-    "workbench.settings.applyToAllProfiles": [
-    
+    "workbench.settings.applyToAllProfiles": [   
         
     ],
     "[javascript]": {
@@ -45,4 +48,5 @@
     "[php]": {
         "editor.defaultFormatter": "laravel.vscode-laravel"
     }
+    
 }
