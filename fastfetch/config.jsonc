@@ -110,7 +110,7 @@
       "type": "command",
       "key": "   Now Playing",
       "keyColor": "green",
-      "text": "playerctl metadata --format '{{artist}} - {{title}}' 2>/dev/null || echo 'No music playing'"
+      "text": "playerctl --player=spotify metadata --format '{{artist}} - {{title}}' 2>/dev/null || echo 'No music playing'"
     },
     {
       "type": "custom",
