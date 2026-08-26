@@ -1,0 +1,7 @@
+HYDE_CLONE_PATH='/home/tamara/HyDE'
+HYDE_BRANCH='master'
+HYDE_REMOTE='https://github.com/HyDE-Project/HyDE.git'
+HYDE_VERSION='v26.03.23'
+HYDE_VERSION_LAST_CHECKED='2026-03-26 13:4303 +0700'
+HYDE_VERSION_COMMIT_MSG='chore: Release - rc → master (#1618)'
+HYDE_COMMIT_HASH='b0acbabbf7be834ceb62fd8ac8fef54f6656e421'

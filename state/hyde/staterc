@@ -1,0 +1,11 @@
+HYDE_THEME="Catppuccin Mocha"
+HYPRLOCK_LAYOUT="Anurati"
+rofiStyle="launchpad"
+HYPR_WORKFLOW="01-default"
+enableWallDcol="0"
+HYPR_SHADER="disable"
+HYPR_ANIMATION="classic"
+HYPR_LAYOUT="dwindle"
+WAYBAR_LAYOUT_PATH=/home/tamara/.local/share/waybar/layouts/hyprdots/15.jsonc
+WAYBAR_LAYOUT_NAME=15
+WAYBAR_STYLE_PATH=/home/tamara/.local/share/waybar/styles/hyprdots.css

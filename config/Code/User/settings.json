@@ -1,0 +1,75 @@
+{
+    "accessibility.dimUnfocused.opacity": 1,
+    "accessibility.dimUnfocused.enabled": false,
+    "chat.todoListTool.enabled": false,
+    "workbench.iconTheme": "catppuccin-mocha",
+    "files.autoSave": "afterDelay",
+    "editor.fontVariations": false,
+
+    "editor.fontFamily": "JetBrains Mono, Fira Code, Cascadia Code, monospace",
+    "editor.fontSize": 14,
+    "editor.fontWeight": "650",
+    "editor.fontLigatures": false,
+
+    "terminal.integrated.fontFamily": "monospace",
+    "terminal.integrated.fontWeight": "600",
+    "terminal.integrated.fontWeightBold": "700",
+
+    "editor.semanticHighlighting.enabled": false,
+
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": [
+                    "keyword",
+                    "storage",
+                    "entity.name.function",
+                    "variable",
+                    "support.function"
+                ],
+                "settings": {
+                    "fontStyle": "bold"
+                }
+            }
+        ]
+    },
+    "workbench.settings.applyToAllProfiles": [
+
+        
+       
+        
+    ],
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[css]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[php]": {
+        "editor.defaultFormatter": "laravel.vscode-laravel"
+    },
+    "window.menuBarVisibility": "compact",
+    "workbench.activityBar.location": "top",
+    "window.commandCenter": false,
+    "workbench.colorTheme": "Catppuccin Mocha",
+    "claudeCode.preferredLocation": "panel",
+    "redhat.telemetry.enabled": true,
+    "workbench.editorAssociations": {
+        "*.copilotmd": "vscode.markdown.preview.editor",
+        "*.sqlite": "default"
+    },
+    "[dart]": {
+        "editor.formatOnSave": true,
+        "editor.formatOnType": true,
+        "editor.rulers": [
+            80
+        ],
+        "editor.selectionHighlight": false,
+        "editor.tabCompletion": "onlySnippets",
+        "editor.wordBasedSuggestions": "off"
+    }
+    
+}

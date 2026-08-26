@@ -1,0 +1,31 @@
+/* User custom styles — floating pill, SOLID (no transparency/blur), radius 16px
+   Mengikuti rounding jendela Hyprland. File ini di-import paling akhir oleh
+   style.css sehingga menang atas global.css (*{border-radius:0}). */
+
+window#waybar {
+    background: transparent;
+    box-shadow: none;
+    border: none;
+}
+
+/* Kapsul grup kiri / tengah / kanan: solid ikut warna tema */
+#pill.left,
+#pill.center,
+#pill.right {
+    background: @main-bg;
+    border-radius: 16px;
+    margin: 4px 6px;
+    padding: 3px 10px;
+}
+
+/* Elemen di dalam kapsul membulat proporsional */
+#pill button,
+#pill entry,
+#pill * {
+    border-radius: 10px;
+}
+
+/* Tombol workspace sedikit lebih menonjol */
+#workspaces button {
+    border-radius: 12px;
+}
