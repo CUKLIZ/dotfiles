@@ -227,6 +227,15 @@ if not _G.__user_overrides_loaded then
 		match = {class = "^(Spotify|discord)$"},
 	})
 
+	-- Dolphin/Ark (file managers): HyDE's hyde_floating_class lists dolphin as floating,
+	-- conflicting with filemanagers-fullscreen. Loaded last so this wins: stay tiled + maximized.
+	hl.window_rule({
+		name = "user_filemanager_tiled",
+		float = false,
+		maximize = true,
+		match = {class = "^(org\\.kde\\.dolphin)$|^(org\\.kde\\.ark)$"},
+	})
+
 	-- Workaround: JetBrains IDE popups flicker on focus
 	hl.window_rule({
 		name = "user_jetbrains_popups",
