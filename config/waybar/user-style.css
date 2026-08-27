@@ -1,21 +1,31 @@
-/* User custom styles */
+/* User custom styles — floating pill, SOLID (no transparency/blur), radius 16px
+   Mengikuti rounding jendela Hyprland. File ini di-import paling akhir oleh
+   style.css sehingga menang atas global.css (*{border-radius:0}). */
 
-/* Notification action buttons */
-.notification-row .notification-background .notification .notification-default-action .notification-content .notification-actions {
-  margin-top: 8px;
-  display: flex;
-  gap: 6px;
+window#waybar {
+    background: transparent;
+    box-shadow: none;
+    border: none;
 }
 
-.notification-row .notification-background .notification .notification-default-action .notification-content .notification-actions .notification-button {
-  background: #313244;
-  color: #CDD6F4;
-  border-radius: 8px;
-  padding: 6px 12px;
-  font-size: 14px;
-  transition: background 0.15s ease-in-out;
+/* Kapsul grup kiri / tengah / kanan: solid ikut warna tema */
+#pill.left,
+#pill.center,
+#pill.right {
+    background: @main-bg;
+    border-radius: 16px;
+    margin: 4px 6px;
+    padding: 3px 10px;
 }
 
-.notification-row .notification-background .notification .notification-default-action .notification-content .notification-actions .notification-button:hover {
-  background: #45475A;
+/* Elemen di dalam kapsul membulat proporsional */
+#pill button,
+#pill entry,
+#pill * {
+    border-radius: 10px;
+}
+
+/* Tombol workspace sedikit lebih menonjol */
+#workspaces button {
+    border-radius: 12px;
 }
