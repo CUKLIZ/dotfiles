@@ -235,6 +235,16 @@ if not _G.__user_overrides_loaded then
 		maximize = true,
 		match = {class = "^(org\\.kde\\.dolphin)$|^(org\\.kde\\.ark)$"},
 	})
+	-- Re-float Dolphin dialog windows (Properties, Create Folder, Copying, dll)
+	hl.window_rule({
+		name = "user_dolphin_dialog_float",
+		float = true,
+		maximize = false,
+		match = {
+			class = "^(org\\.kde\\.dolphin)$",
+			title = ".*(Dialog|Properties|Copying|Choose|Save As|Confirm|Progress|Authentication|Upload|Folder|Rename|Delete|Already Exists|New).*",
+		},
+	})
 
 	-- Workaround: JetBrains IDE popups flicker on focus
 	hl.window_rule({
